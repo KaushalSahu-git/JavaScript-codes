@@ -10,4 +10,4 @@ console.log(myarr[1]);
 
 const myn1 = myarr.slice(1,3)
 console.log(myn1)
-console.log
+console.log(myn1.length)
