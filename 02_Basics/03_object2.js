@@ -33,10 +33,24 @@ const obj6 ={...obj1,...obj2,...obj3}   //best recommendation ,latest simple
 // console.log(obj4===obj1)
 // console.log(obj6)
 
-console.log(tinderUser2)
-console.log(Object.keys(tinderUser2))
-console.log(Object.values(tinderUser2))
-console.log(Object.entries(tinderUser2))
-console.log(tinderUser2.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser2)
+// console.log(Object.keys(tinderUser2))
+// console.log(Object.values(tinderUser2))
+// console.log(Object.entries(tinderUser2))
+// console.log(tinderUser2.hasOwnProperty('isLoggedIn'))
 
+
+const course = {
+    coursename: "kaushal lord",
+    price : "999",
+    courseInstructor: "kaushlendra sahu"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: Instructor}= course
+
+console.log(Instructor)
+
+//API
 
